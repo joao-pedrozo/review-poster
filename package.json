@@ -1,0 +1,23 @@
+{
+  "name": "reviewposter",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --experimental-json-modules index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fast-csv": "^4.3.6",
+    "fs": "^0.0.1-security",
+    "jsdom": "^17.0.0",
+    "node-fetch": "^3.0.0",
+    "puppeteer": "^10.4.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
